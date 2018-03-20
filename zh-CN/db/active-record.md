@@ -40,6 +40,7 @@ $directUser = $user->save()->getResult();
 ### fill
 
 **fill(array $attributes)**   
+> **注意：**组件`swoft/view`需要 1.0.6以上  [组件包](https://packagist.org/packages/swoft/db)
 
 数组方式设置属性值，兼容setXxx操作，注意数组Key，必须和实体成员名称一致。
 
